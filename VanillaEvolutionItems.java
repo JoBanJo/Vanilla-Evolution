@@ -146,10 +146,6 @@ public class VanillaEvolutionItems {
 	public static ItemBronzeShovel bronze_shovel;
 	public static ItemBronzeHoe bronze_hoe;
 	public static ItemBronzePickhoxel bronze_pickhoxel;
-//	public static ItemEnderiteArmor enderite_helmet;
-//	public static ItemEnderiteArmor enderite_chestplate;
-//	public static ItemEnderiteArmor enderite_leggings;
-//	public static ItemEnderiteArmor enderite_boots;
 	public static ItemSeleniteSword selenite_sword;
 	public static ItemSelenitePickaxe selenite_pickaxe;
 	public static ItemOnyxPickaxe onyx_pickaxe;
@@ -217,10 +213,6 @@ public class VanillaEvolutionItems {
 		bronze_shovel = (ItemBronzeShovel) new ItemBronzeShovel("bronze_shovel", BronzeTools, 5f, 996f).setCreativeTab(tabTools);
 		bronze_hoe = (ItemBronzeHoe) new ItemBronzeHoe("bronze_hoe", BronzeTools, 5f, 996f).setCreativeTab(tabTools);
 		bronze_pickhoxel = (ItemBronzePickhoxel) new ItemBronzePickhoxel("bronze_pickhoxel", BronzeTools).setCreativeTab(tabTools);
-//		enderite_helmet = new ItemEnderiteArmor("enderite_helmet", EnderiteArmor, 1, EntityEquipmentSlot.HEAD);
-//		enderite_chestplate = new ItemEnderiteArmor("enderite_chestplate", EnderiteArmor, 1, EntityEquipmentSlot.CHEST);
-//		enderite_leggings = new ItemEnderiteArmor("enderite_leggings", EnderiteArmor, 2, EntityEquipmentSlot.LEGS);
-//		enderite_boots = new ItemEnderiteArmor("enderite_boots", EnderiteArmor, 1, EntityEquipmentSlot.FEET);
 		selenite_sword = (ItemSeleniteSword) new ItemSeleniteSword("selenite_sword", SeleniteTools, 12f, 996f).setCreativeTab(tabTools);
 		selenite_pickaxe = (ItemSelenitePickaxe) new ItemSelenitePickaxe("selenite_pickaxe", SelenitePTools, 12f, 996f).setCreativeTab(tabTools);
 		onyx_pickaxe = (ItemOnyxPickaxe) new ItemOnyxPickaxe("onyx_pickaxe", OnyxTools, 7f, 996f).setCreativeTab(tabTools);
@@ -303,10 +295,6 @@ public class VanillaEvolutionItems {
 		registerRender(bronze_shovel);
 		registerRender(bronze_hoe);
 		registerRender(bronze_pickhoxel);
-//		registerRender(enderite_helmet);
-//		registerRender(enderite_chestplate);
-//		registerRender(enderite_leggings);
-//		registerRender(enderite_boots);
 		registerRender(selenite_sword);
 		registerRender(selenite_pickaxe);
 		registerRender(onyx_pickaxe);
